@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct GAME_22App: App {
+     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomePageView()
         }
     }
 }

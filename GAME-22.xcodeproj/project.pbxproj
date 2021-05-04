@@ -11,6 +11,16 @@
 		4919C49B2609F9A8005163F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4919C49A2609F9A8005163F7 /* ContentView.swift */; };
 		4919C49D2609F9AB005163F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4919C49C2609F9AB005163F7 /* Assets.xcassets */; };
 		4919C4A02609F9AB005163F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4919C49F2609F9AB005163F7 /* Preview Assets.xcassets */; };
+		4919C4A92609F9C7005163F7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4919C4A82609F9C7005163F7 /* Card.swift */; };
+		4919C4AF2609F9F2005163F7 /* gameover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4919C4AE2609F9F2005163F7 /* gameover.swift */; };
+		4919C4B22609FA29005163F7 /* 12321.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4919C4B12609FA28005163F7 /* 12321.mp3 */; };
+		4919C4B62609FA5F005163F7 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4919C4B52609FA5F005163F7 /* PlayerView.swift */; };
+		4919C4B92609FAB4005163F7 /* gameover_house.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4919C4B82609FAB4005163F7 /* gameover_house.swift */; };
+		8A08E2A3263C156300A1A4C2 /* testview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A08E2A2263C156300A1A4C2 /* testview.swift */; };
+		8A76F643263F34D900BFBAF2 /* chooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A76F642263F34D900BFBAF2 /* chooseView.swift */; };
+		8A76F64526402D9B00BFBAF2 /* AVplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A76F64426402D9B00BFBAF2 /* AVplay.swift */; };
+		8A76F64726402F6800BFBAF2 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A76F64626402F6800BFBAF2 /* music.mp3 */; };
+		8AE8116B263BB639004F46F3 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8116A263BB639004F46F3 /* HomePageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +30,16 @@
 		4919C49C2609F9AB005163F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4919C49F2609F9AB005163F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4919C4A12609F9AB005163F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4919C4A82609F9C7005163F7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		4919C4AE2609F9F2005163F7 /* gameover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameover.swift; sourceTree = "<group>"; };
+		4919C4B12609FA28005163F7 /* 12321.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 12321.mp3; sourceTree = "<group>"; };
+		4919C4B52609FA5F005163F7 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		4919C4B82609FAB4005163F7 /* gameover_house.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameover_house.swift; sourceTree = "<group>"; };
+		8A08E2A2263C156300A1A4C2 /* testview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testview.swift; sourceTree = "<group>"; };
+		8A76F642263F34D900BFBAF2 /* chooseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chooseView.swift; sourceTree = "<group>"; };
+		8A76F64426402D9B00BFBAF2 /* AVplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVplay.swift; sourceTree = "<group>"; };
+		8A76F64626402F6800BFBAF2 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music.mp3; path = "../../GAME-3/GAME-3/music.mp3"; sourceTree = "<group>"; };
+		8AE8116A263BB639004F46F3 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +72,18 @@
 		4919C4972609F9A8005163F7 /* GAME-22 */ = {
 			isa = PBXGroup;
 			children = (
+				4919C4A82609F9C7005163F7 /* Card.swift */,
+				4919C4B82609FAB4005163F7 /* gameover_house.swift */,
+				8A76F64426402D9B00BFBAF2 /* AVplay.swift */,
+				4919C4B52609FA5F005163F7 /* PlayerView.swift */,
+				8A76F642263F34D900BFBAF2 /* chooseView.swift */,
 				4919C4982609F9A8005163F7 /* GAME_22App.swift */,
+				4919C4AE2609F9F2005163F7 /* gameover.swift */,
+				8A76F64626402F6800BFBAF2 /* music.mp3 */,
+				8AE8116A263BB639004F46F3 /* HomePageView.swift */,
+				8A08E2A2263C156300A1A4C2 /* testview.swift */,
 				4919C49A2609F9A8005163F7 /* ContentView.swift */,
+				4919C4B12609FA28005163F7 /* 12321.mp3 */,
 				4919C49C2609F9AB005163F7 /* Assets.xcassets */,
 				4919C4A12609F9AB005163F7 /* Info.plist */,
 				4919C49E2609F9AB005163F7 /* Preview Content */,
@@ -126,7 +156,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A76F64726402F6800BFBAF2 /* music.mp3 in Resources */,
 				4919C4A02609F9AB005163F7 /* Preview Assets.xcassets in Resources */,
+				4919C4B22609FA29005163F7 /* 12321.mp3 in Resources */,
 				4919C49D2609F9AB005163F7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +170,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4919C4B92609FAB4005163F7 /* gameover_house.swift in Sources */,
 				4919C49B2609F9A8005163F7 /* ContentView.swift in Sources */,
+				4919C4AF2609F9F2005163F7 /* gameover.swift in Sources */,
+				4919C4A92609F9C7005163F7 /* Card.swift in Sources */,
+				8A08E2A3263C156300A1A4C2 /* testview.swift in Sources */,
+				8A76F643263F34D900BFBAF2 /* chooseView.swift in Sources */,
+				8A76F64526402D9B00BFBAF2 /* AVplay.swift in Sources */,
+				4919C4B62609FA5F005163F7 /* PlayerView.swift in Sources */,
+				8AE8116B263BB639004F46F3 /* HomePageView.swift in Sources */,
 				4919C4992609F9A8005163F7 /* GAME_22App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
