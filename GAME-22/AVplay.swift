@@ -9,7 +9,7 @@ extension AVPlayer {
     static var bgPlayerLooper: AVPlayerLooper!
 
     static func setupBgMusic() {
-    guard let url = Bundle.main.url(forResource: "music", withExtension:
+    guard let url = Bundle.main.url(forResource: "yume", withExtension:
     "mp3") else { fatalError("Failed to find sound file.") }
     let item = AVPlayerItem(url: url)
     bgPlayerLooper = AVPlayerLooper(player: bgQueuePlayer, templateItem: item)
